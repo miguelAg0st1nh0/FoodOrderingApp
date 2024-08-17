@@ -8,9 +8,35 @@
 import SwiftUI
 
 struct AccountView: View {
+    
+    @State private var password = ""
+    @State private var username = ""
     var body: some View {
-        Text("Account View")
+        NavigationStack{
+            
+            TextField("Username", text: $username)
+            SecureField("Password", text: $password)
+            
+                .navigationTitle("Account")
+            
+            Button(action: validateCredentials){
+                Text("Login")
+            }
+        }
+        
+        
     }
+    
+    func validateCredentials(){
+        
+        if(username == "Admin" && password == "admin" ){
+            print("Login Sucessfull!")
+        } else {
+            print("Username or password incorrect!")
+        }
+        
+    }
+    
 }
 
 #Preview {

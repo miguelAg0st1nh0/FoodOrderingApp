@@ -14,6 +14,9 @@
 		5ED8C0192C6DC6E900CB79F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C0182C6DC6E900CB79F9 /* HomeView.swift */; };
 		5ED8C01B2C6DC6F600CB79F9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C01A2C6DC6F600CB79F9 /* AccountView.swift */; };
 		5ED8C01D2C6DC70200CB79F9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C01C2C6DC70200CB79F9 /* OrderView.swift */; };
+		5ED8C01F2C6EA3EC00CB79F9 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C01E2C6EA3EC00CB79F9 /* Appetizer.swift */; };
+		5ED8C0212C6F1B8000CB79F9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C0202C6F1B8000CB79F9 /* NetworkManager.swift */; };
+		5ED8C0232C6F1D7700CB79F9 /* ErrorHandlerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C0222C6F1D7700CB79F9 /* ErrorHandlerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		5ED8C0182C6DC6E900CB79F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5ED8C01A2C6DC6F600CB79F9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		5ED8C01C2C6DC70200CB79F9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		5ED8C01E2C6EA3EC00CB79F9 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		5ED8C0202C6F1B8000CB79F9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5ED8C0222C6F1D7700CB79F9 /* ErrorHandlerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				5ED8C0172C6DC6D800CB79F9 /* Tab Views */,
+				5ED8C01E2C6EA3EC00CB79F9 /* Appetizer.swift */,
 				5ED8C0092C6DC64400CB79F9 /* FoodOrderingApp.swift */,
 				5ED8C00B2C6DC64400CB79F9 /* ContentView.swift */,
 				5ED8C00D2C6DC64500CB79F9 /* Assets.xcassets */,
 				5ED8C00F2C6DC64500CB79F9 /* Preview Content */,
+				5ED8C0202C6F1B8000CB79F9 /* NetworkManager.swift */,
+				5ED8C0222C6F1D7700CB79F9 /* ErrorHandlerManager.swift */,
 			);
 			path = FoodOrdering;
 			sourceTree = "<group>";
@@ -154,11 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED8C01F2C6EA3EC00CB79F9 /* Appetizer.swift in Sources */,
 				5ED8C01B2C6DC6F600CB79F9 /* AccountView.swift in Sources */,
 				5ED8C0192C6DC6E900CB79F9 /* HomeView.swift in Sources */,
+				5ED8C0212C6F1B8000CB79F9 /* NetworkManager.swift in Sources */,
 				5ED8C00C2C6DC64400CB79F9 /* ContentView.swift in Sources */,
 				5ED8C00A2C6DC64400CB79F9 /* FoodOrderingApp.swift in Sources */,
 				5ED8C01D2C6DC70200CB79F9 /* OrderView.swift in Sources */,
+				5ED8C0232C6F1D7700CB79F9 /* ErrorHandlerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
